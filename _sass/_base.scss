@@ -2,6 +2,12 @@ html,
 body {
     height: 100%;
     width: 100%;
+    @include defult-font;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px #555 solid;
 }
 
 hr {
@@ -31,8 +37,11 @@ header {
     width: 100%;
     .header-content-inner {
       h1 {
-        font-weight: 700;
+        // font-weight: 700;
+        @include noto-serif-kr-font;
+        text-shadow: 3px 3px 5px #aaa;
         text-transform: uppercase;
+        letter-spacing: -5px;
         margin-top: 0;
         margin-bottom: 0;
       }

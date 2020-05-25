@@ -22,3 +22,17 @@
 {
 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+
+@mixin defult-font() 
+{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+@mixin noto-serif-kr-font() 
+{
+    font-family: 'Noto Serif KR', serif;
+}
+// font-family: 'Nanum Gothic', sans-serif;
+// font-family: 'Nanum Myeongjo', serif;
+// font-family: 'Noto Serif KR', serif;
+// font-family: 'Song Myung', serif;
