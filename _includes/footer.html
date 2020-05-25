@@ -1,0 +1,80 @@
+<!-- <footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %}
+      </div>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+</footer> -->
+
+<footer class="py-5 bg-dark">
+  <!-- <div class="container">
+    <p class="m-0 text-center text-white">Copyright © Your Website 2019</p>
+  </div> -->
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-12 col-md">
+        <!-- <img class="mb-2" src="/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24"> -->
+        <strong class="text-light">21세기 하우징 인테리어</strong>
+        <small class="d-block mb-3 text-white-50">전라남도 여수시 신기북1길 9</small>
+        <small class="d-block mb-3 text-primary">COPYRIGHT© 21c.</br>ALL RIGHTS RESERVED.</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-light">Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-white-50" href="#">Cool stuff</a></li>
+          <li><a class="text-white-50" href="#">Random feature</a></li>
+          <li><a class="text-white-50" href="#">Team feature</a></li>
+          <li><a class="text-white-50" href="#">Stuff for developers</a></li>
+          <li><a class="text-white-50" href="#">Another one</a></li>
+          <li><a class="text-white-50" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-light">Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-white-50" href="#">Resource</a></li>
+          <li><a class="text-white-50" href="#">Resource name</a></li>
+          <li><a class="text-white-50" href="#">Another resource</a></li>
+          <li><a class="text-white-50" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5 class="text-light">About Us</h5>
+        <p class="text-white-50">대표자: 서인식</p>
+        <p class="text-white-50">30년 이상의 인테리어 회사</p>
+      </div>
+    </div>
+  </div>
+</footer>
