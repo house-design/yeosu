@@ -7,7 +7,7 @@ body {
 
 nav {
   background-color: rgba(0, 0, 0, 0.7);
-  border-bottom: 1px #555 solid;
+  // border-bottom: 1px #555 solid;
 }
 
 hr {
@@ -28,7 +28,7 @@ header {
   text-align: center;
   @include background-cover;
   background-position: center;
-  background-image: url('../assets/img/header4.jpg');
+  background-image: url('../assets/img/header2.jpg');
 
   .header-content {
     position: relative;
@@ -39,7 +39,7 @@ header {
       h1 {
         // font-weight: 700;
         @include noto-serif-kr-font;
-        text-shadow: 3px 3px 5px #aaa;
+        // text-shadow: 3px 3px 5px #aaa;
         text-transform: uppercase;
         letter-spacing: -5px;
         margin-top: 0;
@@ -51,7 +51,7 @@ header {
       p {
         font-size: 16px;
         font-weight: 300;
-        text-shadow: 1px 0px 5px #999;
+        text-shadow: 1px 0px 5px #222;
         color: rgba(white, .7);
         margin-bottom: 50px;
       }
