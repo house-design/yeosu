@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 21세기 하우스플랜
+title: 여수인테리어 - 21세기 하우스플랜
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  21세기 하우스플랜
+  전문 여수인테리어업체를 찾으십니까? 해당지역 경력 30년 이상의 21세기 하우스플랜이 도와드립니다.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -61,6 +61,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+timezone: Asia/Seoul
 
 defaults:
   - scope:
