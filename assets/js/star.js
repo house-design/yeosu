@@ -1,39 +1,37 @@
-const STAR_DATA = generateStarData();
+'use strict';
 
-const instance = basicScroll.create({
-	elem: document.body,
-	from: 0,
-	to: document.documentElement.scrollHeight-window.innerHeight,
-	props: {
-		'--translateScrollY': {
-			from: 0,
-			to: 1
-		}
-	}
-})
+// var instance = basicScroll.create({
+// 	elem: document.body,
+// 	from: 0,
+// 	to: document.documentElement.scrollHeight-window.innerHeight,
+// 	props: {
+// 		'--translateScrollY': {
+// 			from: 0,
+// 			to: 1
+// 		}
+// 	}
+// })
 
-instance.start()
+// instance.start()
 
 function createStar({x, y}, index, debug) {
-  const starParallax = document.createElementNS("http://www.w3.org/2000/svg", 'g');
+  var starParallax = document.createElementNS("http://www.w3.org/2000/svg", 'g');
   starParallax.classList.add('star-parallax');
   
-  const starTranslate = document.createElementNS("http://www.w3.org/2000/svg", 'g');
+  var starTranslate = document.createElementNS("http://www.w3.org/2000/svg", 'g');
   starTranslate.setAttribute('transform', `translate(${x} ${y})`);
   
-  const radius = debug ? 10 : 1;
-  const depth = 1 + index%5; //create 5 parallax layer
-  const parallaxIntensity = 200; // maximum translation basically.
-  const delay = index * 100 + 500 * Math.random();
-  const duration = 3000 + Math.random() * 4000;
-  const brightness = 0.7 + Math.random() * 0.3;
+  var radius = debug ? 10 : 1;
+  var depth = 1 + index%5; //create 5 parallax layer
+  var parallaxIntensity = 200; // maximum translation basically.
+  var delay = index * 100 + 500 * Math.random();
+  var duration = 3000 + Math.random() * 4000;
+  var brightness = 0.7 + Math.random() * 0.3;
   
   starParallax.style.setProperty('--parallax-depth', depth); 
   starParallax.style.setProperty('--parallax-intensity', parallaxIntensity); 
   
-
-
-  const star = document.createElementNS("http://www.w3.org/2000/svg", 'circle');  
+  var star = document.createElementNS("http://www.w3.org/2000/svg", 'circle');  
   star.setAttribute('r', radius);
   star.classList.add('star');
   
@@ -44,23 +42,17 @@ function createStar({x, y}, index, debug) {
 
   starTranslate.appendChild(star);
   starParallax.appendChild(starTranslate);
-  
   return starParallax;
 }
 
-
-
-function createNightSky({container, debug, starReference}) {
- STAR_DATA.forEach((data, index) => {
-    const star = createStar(data, index, debug);
+function createNightSky(container, debug, starReference) {
+  generateStarData().forEach((data, index) => {
+    var star = createStar(data, index, debug);
     container.appendChild(star);
- })
+  })
 }
-  
-const starGroup = document.getElementById('starGroup');
 
-createNightSky({container: starGroup, data: STAR_DATA});
-
+createNightSky(document.getElementById('starGroup'));
 
 // this is here to make the actual code more accessible- will be avaialble at the top through hoisting
 function generateStarData() {

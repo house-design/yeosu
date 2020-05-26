@@ -7,8 +7,8 @@
 
 .star-parallax {
   transform: translate(0, calc(-1px * var(--translateScrollY) * var(--parallax-intensity, 200) * 1/var(--parallax-depth, 1) ));
-transition: transform .1s;
-will-change: transition;
+  transition: transform .1s;
+  will-change: transition;
 }
 
 .shooting-star {
