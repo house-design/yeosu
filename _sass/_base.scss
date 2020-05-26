@@ -23,7 +23,7 @@ hr.light {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  min-height: 100vh;
   color: white;
   text-align: center;
   @include background-cover;
