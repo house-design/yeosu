@@ -31,10 +31,12 @@ header {
   background-image: url('../assets/img/header2.jpg');
 
   .header-content {
-    position: relative;
-    text-align: center;
-    padding: 150px 15px 100px;
     width: 100%;
+    // position: relative;
+    // padding: 150px 15px 100px;
+    position: absolute;
+    top: 25%;
+    text-align: center;
     .header-content-inner {
       h1 {
         @include noto-serif-kr-font;
