@@ -33,11 +33,10 @@ header {
   .header-content {
     position: relative;
     text-align: center;
-    padding: 100px 15px 100px;
+    padding: 150px 15px 100px;
     width: 100%;
     .header-content-inner {
       h1 {
-        // font-weight: 700;
         @include noto-serif-kr-font;
         // text-shadow: 3px 3px 5px #aaa;
         text-transform: uppercase;
