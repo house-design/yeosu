@@ -37,19 +37,15 @@ var marker = new naver.maps.Marker({
     map: map
 });
 
-var contentString = [
+var infowindow = new naver.maps.InfoWindow({
+    content: [
         '<div class="iw_inner" style="width: 200px;height: 105px;padding:15px">',
         '   <img class="mb-2" src="assets/img/logo_title.png" style="max-height: 24px; width: auto;"><br />',
-        // '   <h6 style="margin-top:0px">21세기 하우스플랜</h6>',
         '   <small style="margin:0px">전라남도 여수시 신기북 1길 9<br />',
-        // '       02-120 | 공공,사회기관 &gt; 특별,광역시청<br />',
         '       <a href="http://여수인테리어.kr" target="_blank">여수인테리어.kr</a>',
         '   </small>',
         '</div>'
-    ].join('');
-
-var infowindow = new naver.maps.InfoWindow({
-    content: contentString
+    ].join('')
 });
 
 naver.maps.Event.addListener(marker, "click", function(e) {
