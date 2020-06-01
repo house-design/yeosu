@@ -19,14 +19,14 @@ function createStar(x, y, index, debug) {
   starParallax.classList.add('star-parallax');
   
   var starTranslate = document.createElementNS("http://www.w3.org/2000/svg", 'g');
-  starTranslate.setAttribute('transform', `translate(${x} ${y})`);
+  starTranslate.setAttribute('transform', 'translate('+x+' '+y+')');
   
-  var radius = debug ? 10 : 1.3;
-  var depth = 1 + index%5; //create 5 parallax layer
+  var radius = debug ? 10 : (1 + Math.random() * 0.25).toFixed(2);
+  var depth = 1 + index % 5; //create 5 parallax layer
   var parallaxIntensity = 200; // maximum translation basically.
-  var delay = index * 100 + 500 * Math.random();
-  var duration = 3000 + Math.random() * 4000;
-  var brightness = 0.7 + Math.random() * 0.3;
+  var delay = 10000 * Math.random();
+  var duration = 1000 + Math.random() * 5000;
+  var brightness = 0.9 + Math.random() * 0.1;
   
   starParallax.style.setProperty('--parallax-depth', depth); 
   starParallax.style.setProperty('--parallax-intensity', parallaxIntensity); 
@@ -35,10 +35,10 @@ function createStar(x, y, index, debug) {
   star.setAttribute('r', radius);
   star.classList.add('star');
   
-  star.style.setProperty('--star-animation-delay', `${delay}ms`);
-  star.style.setProperty('--star-animation-duration', `${duration}ms`);
-  star.style.setProperty('--star-animation-glow-duration', `10000ms`);
-  star.style.setProperty('--star-brightness', `${brightness}`);
+  star.style.setProperty('--star-animation-delay', delay + 'ms');
+  star.style.setProperty('--star-animation-duration', duration + 'ms');
+  star.style.setProperty('--star-animation-glow-duration', '10000ms');
+  star.style.setProperty('--star-brightness', brightness);
 
   starTranslate.appendChild(star);
   starParallax.appendChild(starTranslate);
@@ -48,11 +48,20 @@ function createStar(x, y, index, debug) {
 function createNightSky(debug) {
   var header = document.getElementById('header')
   var container = document.getElementById('starGroup')
-  var ary = Array.apply(null, Array(80))
-  ary.forEach(function(data, index) {
-    var star = createStar(randomNumber(header.offsetWidth), randomNumber(header.offsetHeight), index, debug);
-    container.appendChild(star);
-  })
+  
+  var index = 0;
+  var delay = 15;
+  var starCount = 70;
+
+  (function delayLoop() {
+    setTimeout(function() {
+      var star = createStar(randomNumber(header.offsetWidth), randomNumber(header.offsetHeight), index, debug);
+      container.appendChild(star);
+      if (++index < starCount) {
+        delayLoop();
+      }
+    }, delay)
+  })()
 }
 
 createNightSky();
