@@ -21,7 +21,7 @@ function createStar(x, y, index, debug) {
   var starTranslate = document.createElementNS("http://www.w3.org/2000/svg", 'g');
   starTranslate.setAttribute('transform', 'translate('+x+' '+y+')');
   
-  var radius = debug ? 10 : (1 + Math.random() * 0.15).toFixed(2);
+  var radius = debug ? 10 : (0.8 + Math.random() * 0.4).toFixed(2);
   var depth = 1 + index % 5; //create 5 parallax layer
   var parallaxIntensity = 200; // maximum translation basically.
   var delay = 10000 * Math.random();
