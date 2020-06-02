@@ -21,12 +21,12 @@ function createStar(x, y, index, debug) {
   var starTranslate = document.createElementNS("http://www.w3.org/2000/svg", 'g');
   starTranslate.setAttribute('transform', 'translate('+x+' '+y+')');
   
-  var radius = debug ? 10 : (1 + Math.random() * 0.25).toFixed(2);
+  var radius = debug ? 10 : (1 + Math.random() * 0.15).toFixed(2);
   var depth = 1 + index % 5; //create 5 parallax layer
   var parallaxIntensity = 200; // maximum translation basically.
   var delay = 10000 * Math.random();
   var duration = 1000 + Math.random() * 5000;
-  var brightness = 0.9 + Math.random() * 0.1;
+  var brightness = 0.85 + Math.random() * 0.15;
   
   starParallax.style.setProperty('--parallax-depth', depth); 
   starParallax.style.setProperty('--parallax-intensity', parallaxIntensity); 
@@ -51,7 +51,7 @@ function createNightSky(debug) {
   
   var index = 0;
   var delay = 15;
-  var starCount = 70;
+  var starCount = 50;
 
   (function delayLoop() {
     setTimeout(function() {
