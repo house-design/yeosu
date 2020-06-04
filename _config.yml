@@ -23,10 +23,10 @@ email: seotory437@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   전문 여수인테리어업체를 찾으십니까? 해당지역 경력 30년 이상의 21세기 하우스플랜이 도와드립니다.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/yeosu" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-site_url: https://house-design.github.io/yeosu/
+site_url: https://house-design.github.io/yeosu
 site:
   lang: ko
 
@@ -39,8 +39,8 @@ markdown_ext: markdown,mkdown,mkdn,mkd,md
 
 # Build settings
 # theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -63,9 +63,3 @@ plugins:
 #   - vendor/ruby/
 
 timezone: Asia/Seoul
-
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
