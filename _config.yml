@@ -30,6 +30,8 @@ site_url: https://house-design.github.io/yeosu
 site:
   lang: ko
 
+permalink: /:title:output_ext
+
 sass:
   sass_dir: _sass
 markdown_ext: markdown,mkdown,mkdn,mkd,md

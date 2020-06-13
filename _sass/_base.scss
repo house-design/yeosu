@@ -3,6 +3,7 @@ body {
     height: 100%;
     width: 100%;
     @include defult-font;
+    background-color: #343a40!important;
 }
 
 nav {
@@ -20,8 +21,8 @@ hr.light {
   border-color: white;
 }
 
-header {
-  position: relative;
+header#star-area {
+  // position: relative;
   width: 100%;
   min-height: calc(100vh - calc(100vh - 100%));
   color: white;
@@ -34,7 +35,7 @@ header {
     width: 100%;
     // position: relative;
     // padding: 150px 15px 100px;
-    position: absolute;
+    // position: absolute;
     top: 25%;
     text-align: center;
     .header-content-inner {
@@ -83,6 +84,10 @@ header {
       }
     }
   }
+}
+
+.wrap {
+  background-color: #fff;
 }
 
 .section-parallax {

@@ -46,7 +46,7 @@ function createStar(x, y, index, debug) {
 }
 
 function createNightSky(debug) {
-  var header = document.getElementById('header')
+  var header = document.getElementById('star-area')
   var container = document.getElementById('starGroup')
   
   var index = 0;
@@ -64,7 +64,9 @@ function createNightSky(debug) {
   })()
 }
 
-createNightSky();
+if (document.getElementById('star-area')) {
+  createNightSky();
+}
 
 function randomNumber(max) {
   return Math.floor(Math.random() * max) + 1;

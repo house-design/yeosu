@@ -5,15 +5,25 @@
   {%- include head.html -%}
 
   <body>
+    <div class="wrap">
 
-    {%- include nav.html -%}
+      {%- include nav.html -%}
+      
+      {{ content }}
+      
 
-    {{ content }}
+      {%- include footer.html -%}
 
-    {%- include footer.html -%}
+      {%- include scripts.html -%}
 
-    {%- include scripts.html -%}
-
+      <script>
+        /* eslint-disable-parsing:start */
+        {%- if page.map -%}
+        loadMap({{ page.map.xPoint }}, {{ page.map.yPoint }})
+        {%- endif -%}
+        /* eslint-disable-parsing:end */
+      </script>
+    </div>
   </body>
 
 </html>
