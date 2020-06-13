@@ -22,7 +22,7 @@ hr.light {
 }
 
 header#star-area {
-  // position: relative;
+  position: relative;
   width: 100%;
   min-height: calc(100vh - calc(100vh - 100%));
   color: white;
@@ -33,15 +33,12 @@ header#star-area {
 
   .header-content {
     width: 100%;
-    // position: relative;
-    // padding: 150px 15px 100px;
     position: absolute;
     top: 25%;
     text-align: center;
     .header-content-inner {
       h1 {
         @include noto-serif-kr-font;
-        // text-shadow: 3px 3px 5px #aaa;
         text-transform: uppercase;
         letter-spacing: -5px;
         margin-top: 0;
