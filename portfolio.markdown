@@ -7,7 +7,7 @@ permalink: /portfolio/
 <section class="portfolio mb-5 pb-5">
   <div  style="width: 100%; height:100px;"></div>
   <div class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-center justify-content-md-between">
       {% for post in site.posts %}
       <div class="col-auto mb-4 d-inline">
         <div class="portfolio-card card h-100" style="width: 15rem;">

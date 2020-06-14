@@ -43,17 +43,12 @@
   </div>
 </section>
 
-<section class="portfolio pt-5">
+<section class="portfolio mt-5">
   <div class="container">
-    {%- comment -%} <div class="row">
-      <div class="col">
-        <h2>포트폴리오</h2>
-      </div>
-    </div> {%- endcomment -%}
-    <div class="row justify-content-between">
+    <div class="row d-flex justify-content-center justify-content-md-between">
       {% for post in site.posts %}
       {% if post.image and post.image.main %}
-      <div class="col-auto d-inline">
+      <div class="col-auto d-inline mb-5">
         <div class="portfolio-card card h-100" style="width: 15rem;">
           <div style="height:180px; overflow:hidden">
             <a href="{{ post.url | relative_url | replace: '.html', '' }}">
@@ -68,7 +63,7 @@
   </div>
 </section>
 
-<section class="section-parallax pt-5">
+<section class="section-parallax">
   <img class="parallax-img" src="{{ site.baseurl }}/assets/img/test3.jpg" alt="image"/>
 </section>
 
