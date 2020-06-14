@@ -1,8 +1,6 @@
-
-
-var loadMap = function(x, y) {
-  // x = 34.7625897;
-  // y = 127.6700673;
+var loadMap = function(x, y, elementId) {
+  elementId = elementId || 'map';
+  
   var latLng = new naver.maps.LatLng(x, y);
   var mapOptions = {
       center: latLng,
@@ -18,7 +16,7 @@ var loadMap = function(x, y) {
       disableTwoFingerTapZoom: true
   };
 
-  var map = new naver.maps.Map('map', mapOptions);
+  var map = new naver.maps.Map(elementId, mapOptions);
   var marker = new naver.maps.Marker({
       position: latLng,
       map: map

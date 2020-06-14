@@ -2,26 +2,58 @@
 layout: default
 ---
 
-<div  style="width: 100%; height:70px;">
-</div>
+{% assign isProductInfo = false %}
+{% assign articleCol = "col" %}
+{% if page.product %}
+  {% assign isProductInfo = true %}
+  {% assign articleCol = "col-sm-9" %}
+{% endif %}
 
-<section>
+<section class="post-header mb-5 pb-5 text-light bg-info">
+  <div  style="width: 100%; height:100px;"></div>
   <div class="container">
-
     <div class="row">
       <div class="col">
         <h1 class="">{{ page.title | escape }}</h1>
       </div>
     </div>
+  </div>
+</section>
 
+<section>
+  <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="{{ articleCol }} mb-5">
         <article class="post">
-          <div class="post-content">
-            {{ content }}
-          </div>
+          {{ content }}
         </article>
       </div>
+
+      {%- if isProductInfo -%}
+      <div class="col-sm-3 mb-5">
+        <div class="card">
+          <div class="card-header">
+            <strong>OUTPUT INFORMATION</strong>
+          </div>
+          
+          <ul class="list-group list-group-flush">
+            {%- if page.product.type -%}
+            <li class="list-group-item">종류: {{ page.product.type }}</li>
+            {%- endif -%}
+            {%- if page.product.date -%}
+            <li class="list-group-item">일자: {{ page.product.date }}</li>
+            {%- endif -%}
+            {%- if page.product.location -%}
+            <li class="list-group-item">위치: {{ page.product.location }}</li>
+            {%- endif -%}
+            {%- if page.product.text -%}
+            <li class="list-group-item">{{ page.product.text }}</li>
+            {%- endif -%}
+          </ul> 
+        </div>
+      </div>
+      {%- endif -%}
+
     </div>
   </div>
 </section>

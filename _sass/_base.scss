@@ -11,6 +11,12 @@ nav {
   // border-bottom: 1px #555 solid;
 }
 
+article {
+  img {
+    max-width: 100%;
+  }
+}
+
 hr {
   border-color: $theme-primary;
   border-width: 3px;
@@ -19,6 +25,10 @@ hr {
 
 hr.light {
   border-color: white;
+}
+
+.wrap {
+  background-color: #fff;
 }
 
 #star-area {
@@ -83,8 +93,11 @@ hr.light {
   }
 }
 
-.wrap {
-  background-color: #fff;
+.post-header {
+  h1 {
+    @include noto-serif-kr-font;
+    letter-spacing: -2px;
+  }
 }
 
 .section-parallax {
@@ -98,5 +111,16 @@ hr.light {
 
   img {
     width: 100%;
+  }
+}
+
+.portfolio {
+  .portfolio-card {
+    .portfolio-card-img {
+      width:100%;
+      height:100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 }
