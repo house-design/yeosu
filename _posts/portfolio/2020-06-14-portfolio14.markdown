@@ -3,7 +3,7 @@ layout: post
 title:  상가 외부 리모델링 공사
 image: 
   path: https://lh3.googleusercontent.com/pw/ACtC-3f-8bly25PR20Ly-loO7ifROr4Ca6GlJaoZ-DvIbZsGRIf0PdMS_hKZCjOIw-_WtYs9tdBCYuatMU8po6dX8Eqg1D-JM3CAparDsvN1Khj8hCMHafmQM4qEA0frpSEWSLxeAYYS8C7NsLcW4SS6rmjU=w600-h450-no?authuser=0
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-14 00:00:00 +0900
 categories: building
 ---
 

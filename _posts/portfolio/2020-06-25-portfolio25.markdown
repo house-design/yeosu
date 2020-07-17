@@ -4,7 +4,7 @@ title:  이노스빌 인테리어 공사
 image:
   path: https://lh3.googleusercontent.com/pw/ACtC-3eMInwF50FIlMq827uk_J7zR0hJ38FZQoIYmhXiEC3-CN5AQChJPF3cbIAEXMKiRGacGYku_mbU0MpbchOGu7HAZH1Ys5-v8t-IAztuOnsjTsFxJVNd-8MlwOIOOTk3oOOhQd96dNpNk546PMxVsE71=w900-h506-no?authuser=0
   main: true
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-25 00:00:00 +0900
 categories: building
 product: 
   type: 인테리어

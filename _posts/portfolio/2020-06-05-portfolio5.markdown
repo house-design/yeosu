@@ -3,7 +3,7 @@ layout: post
 title:  국동 "B씨" 주택 1층 리모델링
 image: 
   path: https://lh3.googleusercontent.com/pw/ACtC-3dC0tWIiuAj0deelsXPM_QGloHvRhs8ml53C-e6-ZfYVxk0waazwXRpA0SQdV6IU5p0Qjj9E9M66cOAlWgOZ-tb4M5EJT_AwmettMr_hE1YACRakZBimguph2aYXgVn5A0Mp429ZJf89Syp2_RVQdzW=w500-h371-no?authuser=0
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-05 00:00:00 +0900
 categories: building
 product: 
   type: 리모델링

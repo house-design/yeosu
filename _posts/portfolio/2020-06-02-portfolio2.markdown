@@ -3,7 +3,7 @@ layout: post
 title:  남면 우학리교회(이기풍목사님 전시관)
 image: 
   path: https://lh3.googleusercontent.com/pw/ACtC-3eDmkqPmPYR7C7Wz7hVa03F9RmegpaCZRLiLXSgM_I-JS8T1KEy3hqD8KNgQHqLGMBV8cAR6pXwlWfMySC0asK30qql8ULz4XY4imGgNYKvb8KDOqKX3o_URAHSoZohS1afDikLdj5PyT4x1tTivBDk=w500-h375-no?authuser=0
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-02 00:00:00 +0900
 categories: building
 product: 
   type: 건축

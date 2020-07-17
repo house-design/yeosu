@@ -4,7 +4,7 @@ title:  스틸 하우스 건축 (신기동)
 image:
   path: https://lh3.googleusercontent.com/pw/ACtC-3cxpwKInp2acrIM3AlzXRDeRzV9E1j6bYSpkJZgQv2R_OFYfOQdC2mgFgMUtOc66SYZ2sxZjUZQ13xTmP3_M33yi9TaYJ8xtK25B4SoIEMTzID_U7ILGqZjBP-RznSBR5trP_jiV0ZJ-xUjf6t7qUY_=w650-h390-no?authuser=0
   main: true
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-20 00:00:00 +0900
 categories: building
 product: 
   type: 건축

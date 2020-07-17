@@ -3,7 +3,7 @@ layout: post
 title:  동산동 S씨 댁 2층 스틸 하우스
 image: 
   path: https://lh3.googleusercontent.com/pw/ACtC-3fvLbZrT2eSHFLsmjoMkD8BsdskdJQun6ylOVfwaa5PgFq_uaTnZZk0CH1slDmcovyi6x5IBQrgcmhgyFD_cVZKlTE6_48lK4xVAsTecJKvj9g4gUFpC_03Jg212wqUlpPsn8jlg-DUGVcFIS2hk1h0=w900-h519-no?authuser=0
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-24 00:00:00 +0900
 categories: building
 product: 
   type: 건축

@@ -3,7 +3,7 @@ layout: post
 title:  독서실 도면 및 3D 설계
 image:
   path: https://lh3.googleusercontent.com/pw/ACtC-3erkLRVyBF8W9fG-O7pNDwy2LrLi7n8H4AikR4AfT52v2szh2m-CBYdhjQWZwcN2kXwtdKNeIHjewuPskmVqRF8YnrOhVdk7PRNIl3QoLJlOowe4iaixmxE8GZ9Cmg3TorcKJupYenq3L3dFIUXBkA7=w500-h426-no?authuser=0
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-04 00:00:00 +0900
 categories: building
 ---
 

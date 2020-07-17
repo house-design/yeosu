@@ -3,7 +3,7 @@ layout: post
 title:  학동 신동아 A.P.T 47평형 인테리어
 image: 
   path: https://lh3.googleusercontent.com/pw/ACtC-3dEyCl6y1nJCrm5N1sYrfBm8RYVx03YMDzzrbS5Tn7wPUEXaZKvrPdSjupxVZHduzVA7vQKyf8g_9fa7AmBMOi3kSVLNv4Wy_xuf7xp0kIlwyNdgVU68UX42st11z_24xovIV1YW4fIzBDgJVjyQN6P=w500-h362-no?authuser=0
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-06 00:00:00 +0900
 categories: building
 product: 
   type: 인테리어

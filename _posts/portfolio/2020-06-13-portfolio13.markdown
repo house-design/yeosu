@@ -3,7 +3,7 @@ layout: post
 title:  교동 S씨 주택 인테리어
 image:
   path: https://lh3.googleusercontent.com/pw/ACtC-3dcDggKScY7PBfUM8db24whm2a1csIlp4t_hgh0B2LDE-W7dVCi9GFJlFNdNcgWVtQmoVyZaNpTNGNuH5Bluh5w2MTjHCi8E22UlKFlBSc_AzxoVj8-Jt9wtHL63HTo1VOfyarMUpk-5TduoOVPP5nz=w600-h465-no?authuser=0
-date:   2020-06-12 00:00:00 +0900
+date:   2020-06-13 00:00:00 +0900
 categories: building
 product: 
   type: 인테리어
