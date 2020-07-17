@@ -3,7 +3,6 @@ layout: post
 title:  율촌 폐수 종말 처리장 벽체(방부목) 공사
 image:
   path: https://lh3.googleusercontent.com/pw/ACtC-3eC6de2TM7UtiHpUqrkA-nHvedV7Rxf49RDh3guMo_xKYAXiUTpVrxGQtcOATALVxVMnVigTVHWkRsu2JTO0iV0MFY9gP2FoiQQ1waBqTACjjWfZKMBh3S-0ovPNZ7uUkyjX_2XwMlIFSSfA_9kSdeD=w500-h375-no?authuser=0
-  main: true
 date: 2020-06-11 00:00:00 +0900
 categories: building
 product: 
