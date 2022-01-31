@@ -48,7 +48,7 @@ hr.light {
     text-align: center;
     .header-content-inner {
       h1 {
-        @include noto-serif-kr-font;
+        // @include noto-serif-kr-font;
         text-transform: uppercase;
         letter-spacing: -5px;
         margin-top: 0;
