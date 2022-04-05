@@ -3,7 +3,7 @@ layout: post
 title:  주택공사
 image:
   path: https://lh3.googleusercontent.com/pw/ACtC-3c9p4yDKUza7l8l6yc0sCJjhVrYjqDTzxmVTufIuEwaOPZPsZ_6dEKiE5H2D6O5IeuAMBQSPgYDNi7eg9751aIE_HKdKEwRfHw7wiNMpuwQ35NEJ77Hwahs3eGzIH1GNnyUxBsXe1qsgoNUWSqslOSj=w1280-h960-no?authuser=0
-  main: true
+  main: false
 date:   2020-07-16 00:00:00 +0900
 categories: building
 product: 

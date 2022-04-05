@@ -27,7 +27,7 @@ var loadMap = function(x, y, elementId) {
           '<div class="iw_inner" style="width: 200px;height: 105px;padding:15px">',
           '   <img class="mb-2" src="assets/img/logo_title.png" style="max-height: 24px; width: auto;"><br />',
           '   <small style="margin:0px">전라남도 여수시 신기북 1길 9<br />',
-          '       <a href="http://여수인테리어.kr" target="_blank">여수인테리어.kr</a>',
+          '       <a href="http://house-design.github.io/yeosu" target="_blank">21세기 하우스플랜</a>',
           '   </small>',
           '</div>'
       ].join('')
